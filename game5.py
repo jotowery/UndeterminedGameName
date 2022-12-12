@@ -107,11 +107,11 @@ def wall():
     """)
     response = input("> ")
 
-    if "Y" or "y" in input:
+   if "Y" in response or "y" in response:
         wallcont()
 
     else:
-        print("I said, Creativity can SAVE YOUR LIFE!")
+        print('\n"I said, Creativity can SAVE YOUR LIFE!"')
         wallcont()
 
 def wallcont():
